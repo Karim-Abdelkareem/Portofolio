@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import ParallaxSlider from "@/components/ParallaxSlider";
 import Experince from "@/components/Experince";
 import Projects from "@/components/Projects";
@@ -6,14 +7,23 @@ import ContactWithMe from "@/components/ContentWithMe";
 
 export default function Home() {
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
+    <main className="min-h-screen bg-black">
+      <Navbar />
+      <section id="home" className="w-full">
         <Hero />
+      </section>
+      <section id="about" className="w-full">
         <ParallaxSlider />
+      </section>
+      <section id="experience" className="w-full">
         <Experince />
+      </section>
+      <section id="projects" className="w-full">
         <Projects />
+      </section>
+      <section id="contact" className="w-full">
         <ContactWithMe />
-      </div>
+      </section>
     </main>
   );
 }

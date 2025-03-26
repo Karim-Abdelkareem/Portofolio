@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
-import img0 from "../../../public/rsay.png";
+import img0 from "../../../public/udemy.png";
+import img1 from "../../../public/Codementor.png";
+import img2 from "../../../public/rsay.png";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -18,7 +20,9 @@ interface ProjectProps {
 
 // Mapping of image filenames to imported images
 const imageMap: Record<string, StaticImageData> = {
-  "rsay.png": img0,
+  "udemy.png": img0,
+  "Codementor.png": img1,
+  "rsay.png": img2,
 };
 
 export default function Project({
@@ -49,14 +53,14 @@ export default function Project({
           alt={`${title} image`}
         />
 
-        <motion.h2 
+        <motion.h2
           className="xl:text-[44px] text-2xl m-0 text-white font-normal transition-all duration-300 group-hover:translate-x-[-20px] group-hover:text-blue-400"
           whileHover={{ scale: 1.05 }}
         >
           {title}
         </motion.h2>
 
-        <motion.p 
+        <motion.p
           className="text-white transition-all duration-300 group-hover:translate-x-[10px] group-hover:text-purple-400 font-semibold"
           whileHover={{ scale: 1.05 }}
         >
