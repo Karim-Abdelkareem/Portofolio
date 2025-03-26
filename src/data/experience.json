@@ -1,0 +1,87 @@
+{
+  "title": "Experience",
+  "sections": [
+    {
+      "title": "Frontend Development",
+      "description": "Experienced in building responsive and interactive user interfaces using React.js, Next.js, and Angular. Proficient in state management, component architecture, and modern frontend practices. Skilled in Angular's powerful features including dependency injection, routing, and reactive forms. Experienced in building enterprise-level applications with Angular's robust architecture and TypeScript integration.",
+      "technologies": [
+        {
+          "name": "React.js",
+          "color": "blue"
+        },
+        {
+          "name": "Next.js",
+          "color": "blue"
+        },
+        {
+          "name": "TypeScript",
+          "color": "blue"
+        },
+        {
+          "name": "Tailwind CSS",
+          "color": "blue"
+        },
+        {
+          "name": "Angular",
+          "color": "blue"
+        },
+        {
+          "name": "Bootstrap",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "description": "Skilled in creating robust and scalable backend services using Node.js and Express.js. Experienced in API design, database management, and server-side optimization.",
+      "technologies": [
+        {
+          "name": "Node.js",
+          "color": "green"
+        },
+        {
+          "name": "Express.js",
+          "color": "green"
+        },
+        {
+          "name": "Nest.js",
+          "color": "green"
+        },
+        {
+          "name": "MongoDB",
+          "color": "green"
+        },
+        {
+          "name": "REST APIs",
+          "color": "green"
+        },
+        {
+          "name": "Firebase",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Projects",
+      "description": "Successfully developed and deployed multiple full-stack applications using the MEARN stack. Experienced in project architecture, deployment, and performance optimization.",
+      "technologies": [
+        {
+          "name": "MEARN Stack",
+          "color": "purple"
+        },
+        {
+          "name": "Git",
+          "color": "purple"
+        },
+        {
+          "name": "Docker",
+          "color": "purple"
+        },
+        {
+          "name": "AWS",
+          "color": "purple"
+        }
+      ]
+    }
+  ]
+}
