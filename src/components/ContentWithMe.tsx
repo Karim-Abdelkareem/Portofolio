@@ -59,7 +59,7 @@ const ContactWithMe = () => {
         className="text-center mb-16"
       >
         <h2 className="text-white text-7xl font-bold mb-4">
-          Let's{" "}
+          Let&apos;s{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
             Connect
           </span>
