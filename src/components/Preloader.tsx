@@ -27,7 +27,7 @@ const Preloader = () => {
       setCurrentImageIndex((prev) => (prev + 1) % images.length);
     }, 1000);
 
-    // إخفاء Preloader بعد 4 ثواني
+    // إخفاء Preloader بعد 5 ثواني
     const timer = setTimeout(() => {
       setIsLoading(false);
       // إعادة تفعيل التمرير بعد إخفاء Preloader
@@ -86,7 +86,7 @@ const Preloader = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="absolute bottom-1/6 left-1/2 -translate-x-1/2 text-center z-10"
+              className="absolute bottom-1/8 left-1/2 -translate-x-1/2 text-center z-10"
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-4">
                 MEARN STACK
